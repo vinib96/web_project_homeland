@@ -24,7 +24,7 @@
 
 .header__image-container {
   width: 76%;
-  margin: 0 auto;
+  margin: 0 auto 92px;
 }
 
 .header__image {
@@ -32,11 +32,39 @@
   filter: grayscale(100%);
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 760px) {
   .header__title {
     width: 90%;
   }
   .header__subtitle {
     width: 90%;
+  }
+
+  .header__image-container {
+    margin: 0 0 88px;
+  }
+  .header__image {
+    width: 140%;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .header__title {
+    width: 80%;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .header__subtitle {
+    width: 80%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .header__image-container {
+    margin: 0 0 44px;
+  }
+  .header__image {
+    width: 140%;
   }
 }
