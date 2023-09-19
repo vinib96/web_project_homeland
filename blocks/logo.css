@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+}
+
+.logo__header-image {
+  width: 370px;
+  height: 70px;
+  margin: 34px auto 0;
+}

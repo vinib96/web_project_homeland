@@ -1,0 +1,42 @@
+.header__title {
+  width: 793px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.04;
+  margin: 90px auto 32px;
+}
+
+.header__subtitle {
+  width: 793px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 auto 64px;
+}
+
+.header__image-container {
+  width: 76%;
+  margin: 0 auto;
+}
+
+.header__image {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+@media screen and (max-width: 880px) {
+  .header__title {
+    width: 90%;
+  }
+  .header__subtitle {
+    width: 90%;
+  }
+}
