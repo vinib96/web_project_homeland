@@ -68,5 +68,10 @@
 
   .intro__quote {
     padding-bottom: 55px;
+    margin: 0;
+  }
+
+  .intro__content {
+    margin-bottom: 38px;
   }
 }

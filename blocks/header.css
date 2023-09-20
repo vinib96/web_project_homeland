@@ -23,8 +23,8 @@
 }
 
 .header__image-container {
-  width: 76%;
-  margin: 0 auto 92px;
+  max-width: 100%;
+  margin: 0 148px 92px;
 }
 
 .header__image {
@@ -43,9 +43,6 @@
   .header__image-container {
     margin: 0 0 88px;
   }
-  .header__image {
-    width: 140%;
-  }
 }
 
 @media screen and (max-width: 594px) {
@@ -63,8 +60,5 @@
   }
   .header__image-container {
     margin: 0 0 44px;
-  }
-  .header__image {
-    width: 140%;
   }
 }
