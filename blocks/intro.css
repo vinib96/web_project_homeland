@@ -1,9 +1,9 @@
 .intro {
-  margin: 0 304px 92px 148px;
+  max-width: 828px;
+  margin: 0 auto 92px;
 }
 
 .intro__title {
-  width: 100%;
   margin: 0 0 10px;
   color: #fff;
   font-family: Inter;

@@ -1,5 +1,6 @@
 .photo__grid {
-  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 .photo__grid-itens {
@@ -7,12 +8,12 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  padding: 0 48px;
+  padding: 0;
+  margin: auto;
 }
 
 .photo__container {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
 }
 
 .photo__item {
@@ -27,6 +28,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
+  .photo__item {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 594px) {
@@ -35,5 +40,9 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+  .photo__item {
+    width: 100%;
+    height: 100%;
   }
 }
