@@ -32,7 +32,7 @@
   filter: grayscale(100%);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1024px) {
   .header__title {
     width: 90%;
   }
@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 594px) {
+@media screen and (max-width: 544px) {
   .header__title {
     width: 80%;
     font-size: 40px;
