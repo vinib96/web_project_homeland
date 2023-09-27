@@ -5,7 +5,5 @@
 @import url(./blocks/intro.css);
 @import url(./blocks/grid.css);
 @import url(./blocks/places.css);
-
-body {
-  margin: 0;
-}
+@import url(./blocks/cover.css);
+@import url(./blocks/footer.css);

@@ -1,8 +1,11 @@
-.header__title {
-  width: 793px;
+.header {
   color: #fff;
-  text-align: center;
   font-family: Inter;
+  text-align: center;
+}
+.header__title {
+  width: 62%;
+
   font-size: 96px;
   font-style: normal;
   font-weight: 900;
@@ -11,10 +14,8 @@
 }
 
 .header__subtitle {
-  width: 793px;
-  color: #fff;
-  text-align: center;
-  font-family: Inter;
+  width: 62%;
+
   font-size: 30px;
   font-style: normal;
   font-weight: 400;

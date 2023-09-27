@@ -1,24 +1,26 @@
 .places {
   max-width: 77%;
   margin: 92px auto 0;
+  color: #fff;
+  font-family: Inter;
 }
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
+  margin: 0 auto 80px;
   column-gap: 40px;
   grid-template-areas:
     "title artist"
     "image paragraph"
-    "buttom .";
+    "buttom paragraph"
+    ". paragraph";
 }
 
 .place__title {
   margin-top: 0;
   margin-bottom: 48px;
-  width: 46%;
-  color: #fff;
-  font-family: Inter;
+  width: 100%;
+
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -27,6 +29,7 @@
 }
 
 .place__container-artist {
+  width: 100%;
   margin-top: auto;
   margin-bottom: 48px;
   grid-area: artist;
@@ -34,8 +37,7 @@
 
 .place__url-heading {
   width: 5%;
-  color: #aaa;
-  font-family: Inter;
+
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -49,8 +51,6 @@
 
 .place__artist {
   width: 100%;
-  color: #fff;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -58,59 +58,54 @@
   margin: 0;
 }
 .place__paragraph-container {
+  max-width: 100%;
   grid-area: paragraph;
   display: flex;
   flex-direction: column;
   row-gap: 27px;
 }
 .place__paragraph {
-  max-width: 100%;
   margin: 0;
 
-  color: #fff;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.63;
 }
-.place__image-container {
-  max-width: 100%;
-  height: 90%;
-}
+
 .place__image {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
+  object-fit: cover;
   grid-area: image;
 }
 
 .place__link {
-  width: 80%;
+  width: 315px;
+  margin-top: 48px;
+
   border-radius: 4px;
   background: #0278fe;
   text-align: center;
   padding: 13px 20px;
-  transition: 0.2s;
-}
 
-.place__link-text {
-  color: #fff;
-  font-family: Inter;
+  text-decoration: none;
+
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: 0.2s;
 }
 
 .place__link:hover {
-  color: #0063d2;
+  background: #0063d2;
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 28px;
-    margin: 0 auto;
+    margin: 0 auto 31px;
   }
   .place__title {
     width: 100%;
@@ -126,13 +121,12 @@
   .place__paragraph {
     font-size: 16px;
   }
-
-  .place__image {
-    margin-bottom: 48px;
-  }
 }
 
 @media screen and (max-width: 544px) {
+  .places {
+    max-width: 93%;
+  }
   .place {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -164,6 +158,7 @@
     font-size: 16px;
   }
   .place__link {
+    width: 90%;
     margin-top: 22px;
   }
 }

@@ -1,12 +1,13 @@
 .intro {
   max-width: 65%;
   margin: 0 304px 92px auto;
+  color: #fff;
+  font-family: Inter;
 }
 
 .intro__title {
   margin: 0 0 10px;
-  color: #fff;
-  font-family: Inter;
+
   font-size: 54px;
   font-style: normal;
   font-weight: 900;
@@ -15,8 +16,7 @@
 
 .intro__quote {
   margin: 0 0 9px;
-  color: #fff;
-  font-family: Inter;
+
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -26,9 +26,9 @@
 
 .intro__quote-author {
   margin: 0 0 32px;
-  color: #fff;
+
   text-align: right;
-  font-family: Inter;
+
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -37,8 +37,7 @@
 
 .intro__content {
   margin: 0;
-  color: #fff;
-  font-family: Inter;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -58,11 +57,8 @@
 
   .intro__title {
     margin-bottom: 54px;
-    color: #fff;
-    font-family: Inter;
+
     font-size: 32px;
-    font-style: normal;
-    font-weight: 900;
     line-height: 1.09;
   }
 
