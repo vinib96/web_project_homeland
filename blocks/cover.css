@@ -48,6 +48,8 @@
 }
 
 .cover__buttom {
+  color: #fffdfd;
+  text-decoration: none;
   border-radius: 4px;
   background: #0278fe;
   padding: 13px 20px;

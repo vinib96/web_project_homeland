@@ -81,15 +81,13 @@
 
 .place__link {
   width: 315px;
+  text-decoration: none;
   margin-top: 48px;
-
+  color: #fff;
   border-radius: 4px;
   background: #0278fe;
   text-align: center;
   padding: 13px 20px;
-
-  text-decoration: none;
-
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -126,8 +124,10 @@
 @media screen and (max-width: 544px) {
   .places {
     max-width: 93%;
+    margin-top: 0;
   }
   .place {
+    margin-bottom: 0;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
@@ -137,7 +137,6 @@
       "buttom";
   }
   .place__title {
-    margin-top: 62px;
     margin-bottom: 30px;
 
     font-size: 32px;
@@ -160,5 +159,6 @@
   .place__link {
     width: 90%;
     margin-top: 22px;
+    margin-bottom: 50px;
   }
 }

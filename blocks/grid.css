@@ -1,9 +1,9 @@
-.photo__grid {
+.photo-grid {
   max-width: 93%;
   margin: 0 auto;
 }
 
-.photo__grid-itens {
+.photo-grid__itens {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -12,30 +12,33 @@
   margin: auto;
 }
 
-.photo__container {
+.photo-grid__container {
   width: 100%;
 }
 
-.photo__item {
+.photo-grid__item {
   width: 100%;
   height: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-  .photo__grid-itens {
+  .photo-grid__itens {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .photo__grid-itens {
+  .photo-grid {
+    margin-bottom: 62px;
+  }
+  .photo-grid__itens {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
   }
-  .photo__item {
+  .photo-grid__item {
     width: 100%;
     height: 100%;
   }
