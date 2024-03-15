@@ -1,6 +1,45 @@
-# Projeto número 4: "De pátria para pátria"
-<p>O quarto projeto (referente a Sprint 4) do curso de "Desenvolvedor Web" da TripleTen consistiu na criação de uma página web sobre as cidade natais de alguns colaboradores da companhia. Foram utilizados ténicas de responsividade aprendidas na Sprint, como a definição de larguras em porcentagem e o midia querry (especificamente voltados para telas e cada um definindo uma altura máxima). 
-<p>Também foi utilizado o layout em "grid" para construção de dois blocos (photo__grid e places). Os botões da página utiliazam a regra CSS "hover" para mudança de cor de fundo e na ultima seção (cover) o "hover" foi aplicado sobre todo o plano de fundo.</p>
-<p>Vale ressaltar que todas as informações relacionadas ao design do site foram obtidas por meio da utilização do Figma e a metodologia utilizada foi "BEM".</p>
-<p> Para acessar a página basta acessar https://vinib96.github.io/web_project_homeland/ </p>
-<p>Futuramente será possível construir os botões usando a linguaguem de programação "JavaScript".</p>
+
+# PROJETO 4: "DE PÁTRIA PARA PÁTRIA"
+
+O quarto projeto (referente a Sprint 4) do curso de "Desenvolvedor Web" da TripleTen consiste na criação de uma página web sobre as cidade natais de alguns colaboradores da companhia. O objetivo é que ela seja responsiva e esteja de acordo com o design disonibilizado no Figma.
+
+
+## Funcionalidades
+
+. Foram utilizados os seguintes breakpoints:
+- 1280p (ou superior): computadores;
+- 1024px: tablets;
+- 544px: dipositivos móveis.
+
+. As imagens foram compridas para melhorar o desempenho, você pode fazer o mesmo clicando [aqui](https://tinypng.com/).
+
+
+## Stack utilizada
+
+**Front-end:** HTML, CSS, flexbox, grid, media queries, BEM.
+
+
+
+
+## Screenshots
+
+![Tablet](https://github.com/vinib96/web_project_homeland/assets/141737376/8d363a70-618a-4579-91b5-8f097eec40b0)
+
+
+![Mobile](https://github.com/vinib96/web_project_homeland/assets/141737376/3fbfd023-3bf3-450f-ac58-452437840581)
+## Roadmap
+
+- Adicionar mais elementos à página;
+
+- Utilizar JavaScript para criar novas funcionalidades.
+
+
+## Demonstração
+
+Você pode acessar o site [aqui](vinib96.github.io/web_project_homeland/).
+
+
+## Apêndice
+
+O design utilizado pode ser acessado no [Figma](https://www.figma.com/file/SmvybPiUMHqeIxrAsOU8DC/Web_Brief_Sprint_4_PT-%7C-De-P%C3%A1tria-para-P%C3%A1tria-%7C-desktop-%2B-mobile?type=design&node-id=0-1&t=cwXHyAoqJMMe9aCm-0).
+
