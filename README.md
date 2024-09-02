@@ -1,7 +1,7 @@
 
 # PROJETO 4: "DE PÁTRIA PARA PÁTRIA"
 
-O quarto projeto (referente a Sprint 4) do curso de "Desenvolvedor Web" da TripleTen consiste na criação de uma página web que simula uma Galeria de Arte com imagens sobre as cidade natais de alguns colaboradores de uma companhia, com seções destinadas a contar curiosidades dos locais, grid de imagens de alguns pontos turísticos e contato para informações. O objetivo é que ela seja responsiva (computadores, tablets e dispositivos móveis) e esteja de acordo com o design disponibilizado no Figma.
+O quarto projeto (Sprint 4) do curso de "Desenvolvedor Web" da TripleTen teve como objetivo criar uma página web que simula uma Galeria de Arte, exibindo imagens e curiosidades sobre as cidades natais de colaboradores de uma empresa. A página inclui seções dedicadas a curiosidades, um grid com imagens de pontos turísticos e uma área de contato para mais informações. O foco principal foi garantir que a página fosse responsiva, adaptando-se perfeitamente a computadores, tablets e dispositivos móveis, além de seguir fielmente o design fornecido no Figma.
 
 
 ## Funcionalidades
